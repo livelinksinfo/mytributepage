@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div> 
+        <div class="row">
+            <div class="col-md-2"></div>
+                <div class="col-md-8">
+                 
+                    <div class="col-sm-10 form-group">
+                            <form action="" id="survey-form" method="post">
+                                <label for="name" id="name-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required title="this field is required">
+                                <label for="email" id="email-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your e-mail" required title="this field is required">
+                                <label for="age" id="number-label">Age (Optional)</label>
+                                <input type="number" class="form-control" id="age" placeholder="Age">
+                                <label for="dropdown">Which option best describe your current role: </label>
+                                <select name="" id="dropdown" class="form-control">
+                                    <option value="">Select current role</option>
+                                    <option value="student">Student</option>
+                                    <option value="full time job">Full time job</option>
+                                    <option value="full time learner">Full time learner</option>
+                                    <option value="Never mind">Prefer not to say</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="radio-but">Would you recommend FreeCodeCamp to a friend</label>
+                                <input type="radio" name="radio-but" id="radio-but" value="yes" class="radio-inline"><br>Definitely
+                                <input type="radio" name="radio-but" id="radio-but" value="Maybe" class="radio"> May be
+                                <input type="radio" name="radio-but" id="radio-but" value="Not sure" class="radio"> Not Sure
+                                
+                            </form>
+                    </div> 
+                             
+                </div>
+                    
+                </div>
+            <div class="col-md-2"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

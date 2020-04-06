@@ -1,0 +1,35 @@
+body {
+    background-image: url(dome3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-size: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+#title {
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+.form-group {
+    background-color: rgb(10, 10, 99);
+    line-height: 32px;
+    width: 600px;
+}
+
+@media (max-width: 633px) {
+   
+        .form-group {
+            width: 100%
+        }
+    
+}
